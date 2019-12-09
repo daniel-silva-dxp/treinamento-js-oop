@@ -25,3 +25,16 @@ function soma2(a, b) {
 }
 
 console.log(soma2(20, 15))
+
+function area(largunda, altura) {
+    const area = largunda * altura
+    if(area > 20) {
+        console.log(`Valor acima do permitido: ${area}m2`)
+    } else {
+        return area
+    }
+}
+
+console.log(`Area: ${area(2, 2)}`)
+console.log(`Area: ${area(2, 230)}`)
+
