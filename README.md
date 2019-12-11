@@ -20,6 +20,7 @@ Repositório com exercícios do treinamento de JAVASCRIPT OOP.
 │   ├── funcoesAnonimas.js
 │   ├── 74-callback.js
 │   ├── 77-funcoesContrutoras.js
+│   ├── 80-closure.js
 │   └── *
 │  
 ├── .gitignore
