@@ -21,6 +21,7 @@ Repositório com exercícios do treinamento de JAVASCRIPT OOP.
 │   ├── 74-callback.js
 │   ├── 77-funcoesContrutoras.js
 │   ├── 80-closure.js
+│   ├── 81-factory.js
 │   └── *
 │  
 ├── .gitignore
