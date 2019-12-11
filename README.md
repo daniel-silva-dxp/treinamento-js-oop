@@ -8,6 +8,25 @@ Repositório com exercícios do treinamento de JAVASCRIPT OOP.
 * JavaScript - Objetos
 * JavaScript - Orientado a objetos
 
+### Pastas e arquivos
+
+```sh
+├── Funcoes
+│   ├── 63-funcoes.js
+│   ├── 64-return.js
+│   ├── 65-paransVariaveis.js
+│   ├── 67-this.js
+│   ├── 70-arrowFunctions.js
+│   ├── funcoesAnonimas.js
+│   ├── callback.js
+│   ├── *
+│   └── *
+│  
+├── .gitignore
+├── README.md
+└── package.json
+```
+
 ## Perfil do LinkedIn 
 
 * [Linkedin](https://www.linkedin.com/in/daniel-silva-852306ab/)
