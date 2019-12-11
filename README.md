@@ -18,8 +18,8 @@ Repositório com exercícios do treinamento de JAVASCRIPT OOP.
 │   ├── 67-this.js
 │   ├── 70-arrowFunctions.js
 │   ├── funcoesAnonimas.js
-│   ├── callback.js
-│   ├── *
+│   ├── 74-callback.js
+│   ├── 77-funcoesContrutoras.js
 │   └── *
 │  
 ├── .gitignore
