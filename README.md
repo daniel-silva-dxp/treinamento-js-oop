@@ -25,7 +25,11 @@ Repositório com exercícios do treinamento de JAVASCRIPT OOP.
 │   └── 86-callApply.js
 ├── OOP
 │   ├── 87-oo.js
-│   ├── *
+│   ├── 92-gettersSetters.js
+│   ├── 93-funcoesImportantesObj.js
+│   ├── 94-heranca.js
+│   ├── 96-heranca#2.js
+│   ├── 97-heranca#3.js
 │   └── *
 │  
 ├── .gitignore
