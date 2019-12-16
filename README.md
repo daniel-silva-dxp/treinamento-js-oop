@@ -30,6 +30,9 @@ Repositório com exercícios do treinamento de JAVASCRIPT OOP.
 │   ├── 94-heranca.js
 │   ├── 96-heranca#2.js
 │   ├── 97-heranca#3.js
+│   ├── 98-heranca#4.js
+│   ├── 99-heranca#5.js
+│   ├── praticandoHeranca.js
 │   └── *
 │  
 ├── .gitignore
