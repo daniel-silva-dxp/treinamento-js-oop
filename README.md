@@ -11,6 +11,13 @@ Repositório com exercícios do treinamento de JAVASCRIPT OOP.
 ### Pastas e arquivos
 
 ```sh
+├── Array
+│   ├── 104-array.js
+│   ├── 105-arrayMetodos.js
+│   ├── 106-simulandoArray.js
+│   ├── 107-forEach#1.js
+│   ├── 108-forEach#2.js
+│   └── *
 ├── Funcoes
 │   ├── 63-funcoes.js
 │   ├── 64-return.js
