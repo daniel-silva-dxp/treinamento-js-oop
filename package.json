@@ -1,7 +1,7 @@
 {
   "name": "javascript-oop",
   "version": "1.0.0",
-  "description": "\"Treinamento de Javascript Orientado a Objetos\"",
+  "description": "Treinamento de Javascript Orientado a Objetos",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -10,13 +10,18 @@
     "type": "git",
     "url": "git+https://github.com/Daniel-Silva/treinamento-js-oop.git"
   },
-  "author": "Daniel Silva <daniel_dxp@outlook.com>",
+  "keywords": [
+    "treinamento",
+    "orientação",
+    "objetos",
+    "js",
+    "tdd",
+    "oop"
+  ],
+  "author": "Daniel Silva <dani3l.dxp@gmail.com>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/Daniel-Silva/treinamento-js-oop/issues"
   },
-  "homepage": "https://github.com/Daniel-Silva/treinamento-js-oop#readme",
-  "devDependencies": {
-    "eslint": "^6.8.0"
-  }
+  "homepage": "https://github.com/Daniel-Silva/treinamento-js-oop#readme"
 }
