@@ -1,18 +1,18 @@
-const soma = function(x, y ) {
-    return x + y
-}
+const soma = function(x, y) {
+	return x + y;
+};
 
 const imprimirResultado = function(a, b, operacao = soma) {
-    console.log(operacao(a, b))
-}
+	console.log(operacao(a, b));
+};
 
-imprimirResultado(3, 4)
-imprimirResultado(4, 5, (x, y) => x - y)
+imprimirResultado(3, 4);
+imprimirResultado(4, 5, (x, y) => x - y);
 
 const pessoa = {
-    falar: function() {
-        console.log('Opa')
-    }
-}
+	falar: function() {
+		console.log('Opa');
+	}
+};
 
-pessoa.falar()
+pessoa.falar();
