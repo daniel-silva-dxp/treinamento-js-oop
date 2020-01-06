@@ -32,10 +32,12 @@ console.log(carro);
 // 1 - Literal
 
 const obj1 = {};
+console.log(obj1);
 
 // 2 - Nativa
 
 const obj2 = new Object();
+console.log(obj2);
 
 // 3 - Funções construtoras
 
