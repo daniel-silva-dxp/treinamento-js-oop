@@ -7,7 +7,7 @@ Array.prototype.forEachs = function(callback) {
 
 const aprovados = [ 'Daneil', 'Matheus', 'Flávia', 'Fabiana' ];
 
-aprovados.forEachs(function(element, index) {
+aprovados.forEachs((element, index, arr) => {
 	aprovados.sort();
-	console.log(`${index + 1}- ${element}`);
+	console.log(`${index + 1}- ${element} | ${arr}`);
 });
