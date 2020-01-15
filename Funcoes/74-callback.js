@@ -21,3 +21,21 @@ console.log(`Resultado sem callback: ${notasBaixas}`);
 // Solução com callback
 notasBaixas = notas.filter((nota) => nota < 7);
 console.log(`Resultado com callback: ${notasBaixas}`);
+
+// Mais sobre callback
+function exibirArtigo(id, callbackSucesso, callbackErro) {
+	if (false) {
+		callbackSucesso('Funções callback em JS', 'Lorem ipsum');
+	} else {
+		callbackErro('Erro ao recuperar os dados');
+	}
+}
+
+const callbackSucesso = (titulo, desc) => {
+	console.log(`Título: ${titulo}, Descrição: ${desc}`);
+};
+const callbackErro = (error) => {
+	console.log(`Error: ${error}`);
+};
+
+exibirArtigo(1, callbackSucesso, callbackErro);
