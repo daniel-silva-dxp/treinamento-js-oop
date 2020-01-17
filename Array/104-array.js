@@ -6,11 +6,11 @@ const valores = [ 7.7, 8.9, 6.3, 9.2 ];
 
 console.log(valores, valores[0], valores[3]);
 console.log(valores.length); // Retorna o tamanho do array
-valores.push({ id: 3 }, false, null, 'teste'); // Adiciona valores ao final do array - FILA
+valores.push({ id: 3 }, false, null, 'teste'); // Adiciona valores ao final do array - PILHA
 console.log(valores);
-valores.pop(); // Remove o ultimo valor do array - FILA
-valores.unshift('Daniel'); // Adiciona valores ao inicio do array - PILHA
-valores.shift(); // Remove o primeiro valor do array - PILHA
+valores.pop(); // Remove o ultimo valor do array - PILHA
+valores.unshift('Daniel'); // Adiciona valores ao inicio do array - FILA
+valores.shift(); // Remove o primeiro valor do array - FILA
 console.log(valores);
 console.log(aprovados.sort()); // Altera o array de forma ordenada
 
