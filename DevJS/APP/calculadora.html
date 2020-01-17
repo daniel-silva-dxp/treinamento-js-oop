@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>APP Calculadora - JS</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!--STYLE CSS-->
+        <link rel="stylesheet" href="./src/css/main.css">
+        <!--GOOGLE FONTS-->
+        <link href="https://fonts.googleapis.com/css?family=Abel&display=swap" rel="stylesheet">
+        <!--BOOTSTRAP-->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+        <main>
+            <section class="container">
+                <div class="row">
+                    <div class="col d-flex justify-content-center">
+                      <br />
+            
+                      <div class="calculator">
+                        <input type="text" class="form-control display" placeholder="0" disabled="disabled" />
+                        
+                        <div class="row">
+                          <button type="button" class="btn btn-dark btn-lg clear font-weight-light" onclick="calc('action', 'C')">C</button>
+                          <button type="button" class="btn btn-dark btn-lg font-weight-light" onclick="calc('action', '/')">/</button>
+                          <button type="button" class="btn btn-dark btn-lg font-weight-light" onclick="calc('action', '*')">x</button>
+                        </div>
+            
+                        <div class="row">
+                          <button type="button" class="btn btn-dark btn-lg font-weight-light" onclick="calc('value', 7)">7</button>
+                          <button type="button" class="btn btn-dark btn-lg font-weight-light" onclick="calc('value', 8)">8</button>
+                          <button type="button" class="btn btn-dark btn-lg font-weight-light" onclick="calc('value', 9)">9</button>
+                          <button type="button" class="btn btn-dark btn-lg font-weight-light" onclick="calc('action', '-')">-</button>
+                        </div>
+                        
+                        <div class="row">
+                          <button type="button" class="btn btn-dark btn-lg font-weight-light" onclick="calc('value', 4)">4</button>
+                          <button type="button" class="btn btn-dark btn-lg font-weight-light" onclick="calc('value', 5)">5</button>
+                          <button type="button" class="btn btn-dark btn-lg font-weight-light" onclick="calc('value', 6)">6</button>
+                          <button type="button" class="btn btn-dark btn-lg font-weight-light" onclick="calc('action', '+')">+</button>
+                        </div>
+            
+                        <div class="row">
+                          <button type="button" class="btn btn-dark btn-lg font-weight-light" onclick="calc('value', 1)">1</button>
+                          <button type="button" class="btn btn-dark btn-lg font-weight-light" onclick="calc('value', 2)">2</button>
+                          <button type="button" class="btn btn-dark btn-lg font-weight-light" onclick="calc('value', 3)">3</button>
+                          <button type="button" class="btn btn-dark btn-lg enter" onclick="calc('action', '=')">=</button>
+                        </div>
+            
+                        <div class="row" style="margin-top: -60px">
+                          <button type="button" class="btn btn-dark zero btn-lg font-weight-light" onclick="calc('value', 0)">0</button>
+                          <button type="button" class="btn btn-dark btn-lg font-weight-light" onclick="calc('action', '.')">.</button>
+                        </div>
+            
+                      </div>
+                    </div>
+                  </div>
+            </section>
+        </main>
+        
+        <script src="./src/js/app.js"></script>
+    </body>
+</html>
