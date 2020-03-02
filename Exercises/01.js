@@ -1,5 +1,4 @@
-// 01) Crie uma função que dado dois valores (passados como parâmetros) mostre no console a soma, subtração,
-// multiplicação e divisão desses valores.
+// 01) Crie uma função que dado dois valores (passados como parâmetros) mostre no console a soma, subtração, multiplicação e divisão desses valores.
 function foo(a, b) {
 	console.log(`Soma: ${a + b}`, `Subtração: ${a - b}`, `Multiplicação: ${a * b}`, `Divisão: ${a / b}`);
 }
