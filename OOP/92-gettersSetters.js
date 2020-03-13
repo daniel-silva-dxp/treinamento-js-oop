@@ -4,7 +4,7 @@ const sequecia = {
 		return this._valor++;
 	},
 	set valor(valor) {
-		if (valor > this.valor) {
+		if (valor > this._valor) {
 			this._valor = valor;
 		}
 	}
